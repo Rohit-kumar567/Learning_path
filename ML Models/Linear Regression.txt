@@ -1,0 +1,45 @@
+## What is Linear Regression?
+
+Linear regression models the relationship between variables by fitting a straight line through your data. The goal is to predict a continuous outcome (dependent variable) based on one or more input features (independent variables).
+
+**The Basic Equation:**
+For simple linear regression (one predictor):
+- y = β₀ + β₁x + ε
+
+Where:
+- y is what you're predicting (dependent variable)
+- x is your input feature (independent variable)
+- β₀ is the y-intercept (where the line crosses the y-axis)
+- β₁ is the slope (how much y changes when x increases by 1)
+- ε is the error term (the difference between predicted and actual values)
+
+## How It Works
+
+The model finds the line that best fits your data by minimizing the sum of squared errors. Think of it as finding the line where the total distance from all points to the line is as small as possible.
+
+**Example:** Imagine predicting house prices based on square footage. If houses generally cost $100 more per square foot, and there's a base cost of $50,000, your model might be:
+
+Price = 50,000 + 100 × (Square Feet)
+
+## Key Assumptions
+
+Linear regression assumes:
+- Linear relationship between variables
+- Independence of observations
+- Homoscedasticity (constant variance of errors)
+- Normally distributed errors
+- No multicollinearity (for multiple regression)
+
+## Evaluating Your Model
+
+Common metrics include:
+- **R² (R-squared)**: Proportion of variance explained by the model (0 to 1, higher is better)
+- **RMSE (Root Mean Squared Error)**: Average prediction error in the same units as your target
+- **MAE (Mean Absolute Error)**: Average absolute difference between predictions and actuals
+
+## Multiple Linear Regression
+
+When you have multiple predictors:
+- y = β₀ + β₁x₁ + β₂x₂ + ... + βₙxₙ + ε
+
+Each coefficient tells you the effect of that variable while holding others constant.
