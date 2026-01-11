@@ -1,5 +1,3 @@
-I'll provide you with a comprehensive overview of machine learning algorithms organized by category:
-
 ## Supervised Learning
 
 **Regression Algorithms:**
@@ -99,5 +97,3 @@ I'll provide you with a comprehensive overview of machine learning algorithms or
 - Prophet
 - LSTM Networks
 - Exponential Smoothing
-
-This covers the major algorithms, though there are many variations and specialized algorithms within each category. Is there any specific category or algorithm you'd like to explore in more detail?
