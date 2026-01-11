@@ -1,5 +1,3 @@
-Great goal! Here's a **pragmatic, project-based learning path** to master ML algorithms through hands-on building:
-
 ## Phase 1: Foundation (Weeks 1-4)
 
 **Start with Simple Supervised Learning**
@@ -125,5 +123,3 @@ Great goal! Here's a **pragmatic, project-based learning path** to master ML alg
 - Focus on understanding *why* algorithms work, not just *how* to use them
 - Deploy at least 3-5 projects as web apps (use Streamlit/Gradio)
 - Keep a learning journal documenting mistakes and insights
-
-Would you like me to create detailed starter code or a specific roadmap for any particular project?
